@@ -1,1 +1,1 @@
-# FajnaStronaKN
+# Strona KNTI
