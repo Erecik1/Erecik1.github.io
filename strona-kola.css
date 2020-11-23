@@ -1,11 +1,12 @@
+html, body {margin: 0; height: 100%; overflow: hidden}
 
 .inside {
     position: absolute;
     bottom: 0%;
-    width: 88%;
-    height: 30px;
-    left:7%;
-    background-color: #205CDC;
+    width: 100%;
+    height: 40px;
+    background: rgb(32,92,220);
+    background: linear-gradient(180deg, rgba(32,92,220,1) 0%, rgba(114,157,247,1) 0%, rgba(32,92,220,1) 40%); 
 }
 html { 
     background: url(windowsbg.jpg) no-repeat center center fixed; 
@@ -24,54 +25,41 @@ html {
 }
 .right {
     position: absolute;
+    text-align: center;
     bottom: 0%;
-    width: 15%;
-    height: 30px;
+    width: 8%;
+    height: 40px;
     right: 0%;
-    background-color: #149AEF;
+    background: rgb(20,154,239);
+    background: linear-gradient(180deg, rgba(20,154,239,1) 0%, rgba(165,215,247,1) 0%, rgba(20,154,239,1) 40%); 
+    position: absolute;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    color: white;
 }
 .start{
-    height: 37px;
-    width: auto;
+    height: 40px;
     position: absolute;
-    bottom: -3px;
-    left:-5px;
+    bottom: 0;
+    left: 0;
 }
-.folder1{
-    float: right;
-    margin-right: 30px;
-    margin-top: 30px;
-    top: 50%;
+
+.icon {
     width: 5%;
     height: 5%;
+  }
+
+.folder1{
+
 }
 .folder2{
-    float: right;
-    margin-top: 130px;
-    margin-right: -60px;
-    width: 5%;
-    height: 5%;
+
 }
 .folder3{
-    float: right;
-    margin-right: -60px;
-    margin-top: 230px;
-    top: 50%;
-    width: 5%;
-    height: 5%;
+
 }
 .fav{
-    float: left;
-    margin-top: 30px;
-    margin-left: 30px;
-    width: 5%;
-    height: 5%;
+
 }
 .ludzie{
-    float: left;
-    margin-top: 130px;
-    margin-left: -60px;
-    top:50%;
-    width: 5%;
-    height: 5%;
 }
