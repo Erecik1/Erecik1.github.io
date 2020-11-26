@@ -1,50 +1,63 @@
-html, body {margin: 0; height: 100%; overflow: hidden}
+html,
+body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden
+}
 
 .inside {
     position: absolute;
     bottom: 0%;
     width: 100%;
-    height: 40px;
-    background: rgb(32,92,220);
-    background: linear-gradient(180deg, rgba(32,92,220,1) 0%, rgba(114,157,247,1) 0%, rgba(32,92,220,1) 40%); 
+    height: 35px;
+    background: rgb(32, 92, 220);
+    background: linear-gradient(180deg, rgba(32, 92, 220, 1) 0%, rgba(114, 157, 247, 1) 0%, rgba(32, 92, 220, 1) 40%);
 }
-html { 
-    background: url(windowsbg.jpg) no-repeat center center fixed; 
+
+html {
+    background: url(windowsbg.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+}
+
 .left {
     position: absolute;
     bottom: 0%;
     width: 15%;
     height: 30px;
-    left:0%;
-    
+    left: 0%;
+
 }
+
 .right {
     position: absolute;
     text-align: center;
     bottom: 0%;
     width: 8%;
-    height: 40px;
+    height: 35px;
     right: 0%;
-    background: rgb(20,154,239);
-    background: linear-gradient(180deg, rgba(20,154,239,1) 0%, rgba(165,215,247,1) 0%, rgba(20,154,239,1) 40%); 
+    background: rgb(20, 154, 239);
+    background: linear-gradient(180deg, rgba(20, 154, 239, 1) 0%, rgba(165, 215, 247, 1) 0%, rgba(20, 154, 239, 1) 40%);
     position: absolute;
     font-family: 'Righteous', cursive;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
 }
-.start{
-    height: 40px;
+
+.start {
+    height: 35px;
     position: absolute;
     bottom: 0;
     left: 0;
 }
 
+.start:hover {
+    filter: brightness(115%);
+}
+
 .icon {
     width: 5%;
     height: 5%;
-  }
+}
