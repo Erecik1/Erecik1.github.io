@@ -7,14 +7,26 @@
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
     <script  src="/skrypty/move.js"></script>
+    <script  src="/skrypty/start.js"></script>
     </head>
     <body>
         
         <div class="inside"> </div>
-        <img class="start" src="start.png">    
-
+        <img id="start" onclick="showMenu()" src="start.png">    
         <div class="right" id="clock">
             <script  src="/skrypty/timer.js"></script>
+        </div>
+        <div id="menu" onclick="test()">
+            <div class="option"></div>
+            <div class="option"></div>
+            <div class="option"></div>
+            <div class="option"></div>
+            <div class="option"></div>
+            <div class="option"></div>
+            <div class="option"></div>
+            <div class="option"></div>
+            <div class="option"></div>
+            <div class="option"></div>
         </div>
         <div>
             <img class="folder1 icon" src="folder.png"> 
