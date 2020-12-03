@@ -7,14 +7,29 @@
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
     <script  src="/skrypty/move.js"></script>
+    <script  src="/skrypty/start.js"></script>
     </head>
     <body>
         
         <div class="inside"> </div>
-        <img class="start" src="start.png">    
-
+        <img id="start" onclick="showMenu()" src="start.png">    
         <div class="right" id="clock">
             <script  src="/skrypty/timer.js"></script>
+        </div>
+        <div id="menu">
+            <div class="aside">Koło Naukowe Technologii Informacyjnych</div>
+            <div class="option one">Określ dostęp do programów</div>
+            <div class="option two">Windows Catalog</div>
+            <div class="option three">Windows Update</div>
+            <div class="line four"><hr></div>
+            <div class="option five">Programy</div>
+            <div class="option six">Dokumenty</div>
+            <div class="option seven">Ustawienia</div>
+            <div class="option eight">Wyszukaj</div>
+            <div class="option nine">Pomoc i obsługa techniczna</div>
+            <div class="option ten">Uruchom...</div>
+            <div class="line eleven"><hr></div>
+            <div class="option twelve">Zamknij...</div>
         </div>
         <div>
             <img class="folder1 icon" src="folder.png"> 
