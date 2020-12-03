@@ -21,8 +21,3 @@ window.addEventListener('click', function(e) {
     // document.getElementById("start").style.filter = "brightness(100%)"
   }
 });
-
-// funkcja tylko do testów
-function test() {
-  console.log('Klik w pomidora');
-}
