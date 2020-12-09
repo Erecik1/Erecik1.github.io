@@ -1,6 +1,7 @@
 html,
 body {
     margin: 0;
+    padding: 0;
     height: 100%;
     overflow: hidden;
     font-family: Tahoma, Geneva, sans-serif;
@@ -168,7 +169,25 @@ hr {
     opacity: 0.5;
 }
 
-.icon {
-    width: 3%;
-    height: 3%;
+.folder {
+    display: inline-block;
+    margin: 2px;
+    width: 3.5%;
+    min-width: 60px;
+    max-width: 80px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.folder img {
+    width: 70%;
+    height: 70%;
+}
+
+.nazwa {
+    padding: 0px 5px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 100;
+    text-shadow: 0 2px 2px #000000;
 }
