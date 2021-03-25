@@ -8,7 +8,7 @@ body {
 }
 
 html {
-    background: url(windowsbg.jpg) no-repeat center center fixed;
+    background: url(img/windowsbg.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -199,7 +199,7 @@ hr {
     position: relative;
     left: calc(50vw - 150px);
     top: calc(30vh - 150px);
-    background: url("logo.png") no-repeat;
+    background: url("img/logo.png") no-repeat;
     background-size: cover;
     cursor: pointer;
     overflow: hidden;
